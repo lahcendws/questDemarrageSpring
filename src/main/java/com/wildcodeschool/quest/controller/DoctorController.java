@@ -7,12 +7,8 @@ public class DoctorController {
 	
 	@GetMapping("/doctor")
 	@ResponseBody
-	public String index() {
-		return " <ul> "
-				+ "      <li><a href='http://localhost:8080/doctor/1'>William lahcen</a></li>"
-				+ "     <li><a href='http://localhost:8080/doctor/10'>David Tennant</a></li>\r\n"
-				+ "     <li><a href='http://localhost:8080/doctor/13'>Jodie Whittaker</a></li>\r\n"
-				+ "    </ul>";
+	public  static void index() {
+
 	}
 	@GetMapping("/doctor/1")
 	@ResponseBody
